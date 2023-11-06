@@ -12,8 +12,8 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: waws-prod-blu-515.ftp.azurewebsites.windows.net
-        username: ${{ secrets.brajesh\$brajesh }}
-        password: ${{ secrets.berxEoxjaXod0RdntQnp4pydXGn2Xoxj5ucTfZ0eX6n8olFLgDvYWotE1FJY }}
+        username: ${{ secrets.WP_USER }}
+        password: ${{ secrets.WP_PASSWORD }}
         protocol: ftps        
         server-dir: /site/wwwroot/wp-content/themes/astra-child/
         # dry-run: true
